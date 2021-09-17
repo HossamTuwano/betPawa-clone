@@ -1,0 +1,38 @@
+.page-headline {
+  background: #f4f5f0;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  font-family: GothamNarrow, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.page-headline__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.6em;
+}
+
+.page-headline__flex-left {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex: 0.9;
+}
+
+.info-icon {
+  flex: 0.1;
+}
+
+.bolt-icon {
+  margin-right: 0.5em;
+}
+
+.page-headline .page-headline__flex-left h1 {
+  font-weight: 700;
+  color: #252a2d;
+  font-size: 22px;
+  white-space: normal;
+}

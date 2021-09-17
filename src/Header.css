@@ -1,0 +1,145 @@
+/* logo */
+
+.logo img {
+  object-fit: contain;
+}
+
+/* header */
+
+.header__container {
+  position: sticky;
+  top: 0;
+}
+
+/* header viewable on mobile only  */
+
+.header-hidden__nav {
+  padding: 1em 0;
+  border-bottom: 0.5px solid #e6e7e2;
+}
+
+.header-hidden__nav,
+.header-hidden__buttons-left,
+.header-hidden__icons-right,
+.header-hidden__registration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-hidden__icons-right {
+  padding: 0 0.5em;
+}
+
+.header-hidden__buttons-left {
+  align-items: center;
+}
+
+.header__container {
+  background-color: #252a2d;
+}
+
+.header-hidden__nav .header-hidden__btn,
+.btn {
+  border: none;
+  outline: none;
+  background: none;
+  font-weight: 900;
+  color: white;
+}
+
+.header-hidden__icons {
+  color: white;
+}
+
+.header-hidden__sports-soccer-icon {
+  background-color: #e6e7e2;
+  padding: 1px 1px;
+  color: black;
+}
+
+.header-hidden__registration {
+  padding: 1em 1em;
+}
+
+.header-hidden__registration-join {
+  background: #9ce800;
+  padding: 0.5em 1em;
+  color: #252a2d;
+}
+
+/*  */
+.navigation {
+  background-color: #252a2d;
+  padding: 25px;
+}
+
+.header {
+  font-family: GothamNarrow, Roboto, Helvetica, Arial, sans-serif;
+  /* color: white; */
+}
+
+.nav-flex,
+.search-bar,
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+/* buttons */
+.buttons .btn {
+  border: none;
+  outline: none;
+  background: none;
+  margin-right: 5px;
+}
+
+.buttons .join {
+  background-color: #9ce800;
+  color: #252a2d;
+}
+
+.search-bar {
+  background-color: white;
+  width: 500px;
+  align-items: center;
+
+  /* text-align: center; */
+}
+
+.search {
+  outline: none;
+  border: none;
+  width: 455px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.icon-wrapper {
+  text-align: center;
+  color: black;
+  padding: 10px 9px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.btn {
+  /* color: white; */
+  font-weight: bolder;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+  .header-hidden-wrapper {
+    display: none;
+  }
+}

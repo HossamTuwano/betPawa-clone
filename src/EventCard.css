@@ -1,0 +1,19 @@
+* {
+  font-family: monospace;
+}
+.event-card {
+  padding: 1em 1em;
+}
+
+.teams {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: large;
+}
+
+.subtitle p {
+  font-weight: 100;
+  color: gray;
+  margin-top: 0.3em;
+}

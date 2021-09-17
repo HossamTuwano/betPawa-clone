@@ -1,0 +1,19 @@
+.sidebar {
+  border-right: 1px solid black;
+  flex: 0.2;
+}
+
+.sidebar .sidebar__select {
+  text-align: center;
+  padding: 0.5em 0em;
+  border-bottom: 1px solid black;
+}
+
+.sidebar .sidebar__select > select {
+  border: none;
+  background: none;
+  outline: none;
+  border: 1px solid #f4f5f0;
+  width: 300px;
+  padding: 0.8em 0.5em;
+}

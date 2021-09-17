@@ -1,0 +1,19 @@
+.announcement__warning {
+  background: #fff1a8;
+  padding: 1em 1em;
+  font-family: GothamNarrow, Roboto, Helvetica, Arial, sans-seri;
+}
+
+.announcement {
+  margin: 0.5em 0.5em;
+}
+
+.announcement__ad {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.announcement__image {
+  object-fit: contain;
+  width: 100%;
+}

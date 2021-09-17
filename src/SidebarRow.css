@@ -1,0 +1,34 @@
+.sidebar__Row {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0.5em;
+  border-bottom: 1px solid #f4f5f0;
+}
+
+.sidebar__Row__Icon {
+  margin-right: 0.3em;
+}
+
+.sidebar__Row__Icon,
+.sidebar__Row__Name {
+  font-size: 0.85rem;
+}
+
+.sidebar__Row__Name {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.sidebar__Row.selected {
+  font-family: monospace;
+  border-left: 4px solid #9ce800;
+}
+
+.sidebar__Row.selected > .sidebar__Row__Icon {
+  color: #9ce800;
+}
+
+.sidebar__Row:hover {
+  background: #f4f5f0;
+  cursor: pointer;
+}
