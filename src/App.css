@@ -7,10 +7,25 @@
 
 .App {
   background-color: #ffffff;
+  font-family: "calibri", sans-serif;
+  /* height: 100%; */
+}
+
+.main-web {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media (min-width: 600px) {
   .main .main-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 601px) {
+  .main-web {
     display: none;
   }
 }

@@ -1,3 +1,29 @@
 .booking {
+  display: flex;
+  flex-direction: column;
   flex: 0.3;
+}
+
+.registration {
+  border-bottom: 1px solid #e6e7e2;
+  padding: 1rem 0.5rem;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sport,
+.virtual {
+  flex: 0.5;
+  padding: 0.5rem;
+}
+
+.tag {
+  text-align: center;
+}
+
+.active {
+  background-color: #e6e7e2;
 }

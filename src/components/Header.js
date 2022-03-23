@@ -37,34 +37,36 @@ function Header() {
           </div>
         </div>
       </header>
-      {/* <header className="header">
-        <div className="navigation">
-          <div className="nav-flex">
-            <div className="logo">
-              <img src="logo.png" alt="" />
-            </div>
-            <div className="search-bar">
-              <div className="search-input">
-                <input
-                  type="text"
-                  placeholder="search for events and tournaments..."
-                  className="search"
-                />
+      <div className="header_desktop">
+        <header className="header">
+          <div className="navigation">
+            <div className="nav-flex">
+              <div className="logo">
+                <img src="logo.png" alt="" />
               </div>
-              <div className="search-icon">
-                <i className="icon-wrapper">
-                  <SearchIcon className="icon" />
-                </i>
+              <div className="search-bar">
+                <div className="search-input">
+                  <input
+                    type="text"
+                    placeholder="search for events and tournaments..."
+                    className="search"
+                  />
+                </div>
+                <div className="search-icon">
+                  <i className="icon-wrapper">
+                    <SearchIcon className="icon" />
+                  </i>
+                </div>
               </div>
-            </div>
-            <div className="buttons">
-              <button className="btn">Login</button>
-              <button className="btn join">JOIN NOW</button>
-              <button className="btn">MENU</button>
+              <div className="buttons">
+                <button className="btn">Login</button>
+                <button className="btn join">JOIN NOW</button>
+                <button className="btn">MENU</button>
+              </div>
             </div>
           </div>
-        </div>
-      </header> */}
+        </header>
+      </div>
     </div>
   );
 }

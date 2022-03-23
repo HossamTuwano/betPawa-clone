@@ -5,8 +5,6 @@ import Events from "./Events";
 function Main() {
   return (
     <div className="Main">
-      <div className="Main__main-desktop"></div>
-
       <div className="Main__main-mobile">
         <Announcement />
         <Events />

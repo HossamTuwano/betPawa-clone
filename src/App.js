@@ -4,6 +4,7 @@ import "./App.css";
 import SidebarLeft from "./components/SidebarLeft";
 import Main from "./components/Main";
 import SidebarRight from "./components/SidebarRight";
+import MainDesktop from "./components/MainDesktop";
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
           <Main />
         </div>
 
-        <div className="main-web"></div>
-        <SidebarLeft />
-
-        <SidebarRight />
+        <div className="main-web">
+          <SidebarLeft />
+          <MainDesktop />
+          <SidebarRight />
+        </div>
       </div>
     </div>
   );
